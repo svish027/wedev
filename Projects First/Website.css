@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+   
+   height: 109vh;  
+   width: 100%;  
+   background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://www.adirondackalmanack.com/wp-content/uploads/2021/12/IMG_5252-scaled-e1640032936914.jpg);
+   background-position: center;
+   background-size: cover;
+} 
+
+.navbar{
+
+   height: 75px;  
+   width: 1200px;
+   margin: auto;
+}
+
+.icon{
+
+   height: 70px; 
+   width: 200px;
+   float: left;
+   
+}
+
+.logo{
+
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    margin-left: -110px;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+}
+
+.logo:hover{
+
+    color: rgb(13, 255, 0);
+}
+
+#world:hover{
+
+    color: rgb(0, 255, 251);
+}
+
+.menu{
+
+    height: 70px;
+    width: 400px;
+    float: left;
+}
+
+ul{
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 14px;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+
+    color: #ff7200;
+}
+
+.search{
+
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+
+    font-family: 'Times New Roman';
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+
+    height: 40px;
+    width: 100px;
+    background-color: #ff7200;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+
+    outline: none;
+}
+
+.srch:focus{
+
+    outline: none;
+}
+
+.content{
+
+    height: auto;
+    width: 1450px;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+
+    height: 40px;
+    width: 160px;
+    background-color: #ff7200;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.content .cn a:hover{
+ 
+    color: rgb(15, 2, 254)
+}
+.cn:hover{
+    
+    background-color: #fff;
+}
+
+.content span{
+
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.content span:hover{
+
+    color: rgb(255, 0, 247);
+}
+
+.form{
+
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -0px;
+    left: 995px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #ff7200;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    transition: 0.2s ease;
+}
+
+.form h2:hover{
+
+    color: blue;
+}
+
+.form input{
+
+    height: 35px;
+    width: 240px;
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+
+    outline: none;
+}
+
+::placeholder{
+
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+
+    height: 40px;
+    width: 240px;
+    background-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+
+    color: #ff7200;
+    background-color: #fff;
+}
+
+.btnn a{
+
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw{
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a{
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+
+    color: #ff7200;
+}
+
